@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= titulo %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= titulo %></h1>
+    <p>Welcome to <%= titulo %> - <%= descripcion %></p>
+   <div>
+      <% if(tags && tags.length > 0){ %>
+        <table>
+          <tr>
+            <td>#</td><td>Tag</td>
+          </tr>
+        <% for(let i=0; i < tags.length; i++) { %>
+          <tr>
+            <td><%= i+1 %></td><td><%= tags[i] %> </td>
+          </tr>
+        <% } %>
+          </table>
+      <% } %>
+    </div>
+  </body>
+</html>

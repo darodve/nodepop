@@ -1,0 +1,33 @@
+[
+  {
+      "nombre": "OnePlus 5",
+      "venta": true,
+      "precio": 350.99,
+      "foto": "oneplus.png",
+      "tags": [
+          "lifestyle",
+          "mobile"
+      ]
+  },
+  {
+      "nombre": "Nissan Qashqai",
+      "venta": false,
+      "precio": 24500.00,
+      "foto": "qashqai.png",
+      "tags": [ "motor" ]
+  },
+  {
+      "nombre": "Portátil",
+      "venta": true,
+      "precio": 1450.50,
+      "foto": "asus.png",
+      "tags": [ "work" ]
+  },
+  {
+      "nombre": "GalaxyTab",
+      "venta": false,
+      "precio": 430.99,
+      "foto": "galaxy.png",
+      "tags": [ "lifestyle" ]
+  }
+]
